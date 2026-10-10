@@ -7,7 +7,7 @@ from aiogram.types import Message
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8312220975:AAGFqlxZUpA-0W540X4YEq-0mdQ5BaPqCI4")
 if not TOKEN:
     raise ValueError("BOT_TOKEN çevresel değişkeni bulunamadı!")
 
